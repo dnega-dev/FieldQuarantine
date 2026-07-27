@@ -1,0 +1,52 @@
+{
+  "answers": [
+    {
+      "captured_at": "2025-01-01T09:03:00Z",
+      "field_id": "condition",
+      "provenance": {
+        "device_id": "device-demo",
+        "operator_id": "operator-demo"
+      },
+      "value": "repair"
+    },
+    {
+      "captured_at": "2025-01-01T09:03:30Z",
+      "field_id": "temperature",
+      "provenance": {
+        "device_id": "device-demo",
+        "sensor": "manual"
+      },
+      "value": 42
+    }
+  ],
+  "attachments": [
+    {
+      "attachment_id": "att-001",
+      "captured_at": "2025-01-01T09:04:00Z",
+      "field_id": "condition",
+      "file_name": "evidence.jpg",
+      "media_type": "image/jpeg",
+      "provenance": {
+        "device_id": "device-demo"
+      },
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "size_bytes": 128,
+      "status": "local"
+    }
+  ],
+  "auth_expires_at": "2025-01-04T00:00:00Z",
+  "created_at": "2025-01-01T09:00:00Z",
+  "delivery_id": "delivery-sub-001",
+  "metadata": {
+    "offline_reason": "no_network"
+  },
+  "migration_history": [],
+  "obligation_hash": "obligation-demo-v1",
+  "original_answers": [],
+  "schema_id": "offline-inspection",
+  "schema_version": "1",
+  "source_hash": "source-demo-v1",
+  "submission_id": "sub-001",
+  "sync_state": "local_only",
+  "updated_at": "2025-01-01T09:05:00Z"
+}

@@ -1,0 +1,22 @@
+{
+  "acknowledge_obligation_change": true,
+  "acknowledge_source_change": false,
+  "conversions": {},
+  "defaults": {
+    "visit_complete": true
+  },
+  "field_mappings": {
+    "condition": "asset_condition"
+  },
+  "from_version": "1",
+  "note": "Synthetic reviewed migration for the bundled example.",
+  "reviewed_by": "reviewer@example.invalid",
+  "schema_id": "offline-inspection",
+  "to_version": "2",
+  "value_mappings": {
+    "condition": {
+      "good": "acceptable",
+      "repair": "needs_attention"
+    }
+  }
+}

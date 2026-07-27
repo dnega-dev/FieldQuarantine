@@ -1,0 +1,63 @@
+{
+  "fields": [
+    {
+      "aliases": [
+        "condition"
+      ],
+      "constraints": {
+        "enum": [
+          "acceptable",
+          "needs_attention"
+        ]
+      },
+      "evidence": {
+        "media_types": [
+          "image/jpeg"
+        ],
+        "min_count": 1,
+        "required": true
+      },
+      "field_id": "asset_condition",
+      "label": "Asset condition",
+      "required": true,
+      "type": "enum"
+    },
+    {
+      "aliases": [],
+      "constraints": {
+        "maximum": 60,
+        "minimum": -20
+      },
+      "evidence": {
+        "media_types": [],
+        "min_count": 0,
+        "required": false
+      },
+      "field_id": "temperature",
+      "label": "Temperature",
+      "required": true,
+      "type": "number"
+    },
+    {
+      "aliases": [],
+      "constraints": {},
+      "evidence": {
+        "media_types": [],
+        "min_count": 0,
+        "required": false
+      },
+      "field_id": "visit_complete",
+      "label": "Visit complete",
+      "required": true,
+      "type": "boolean"
+    }
+  ],
+  "metadata": {
+    "example": true
+  },
+  "obligation_hash": "obligation-demo-v2",
+  "schema_id": "offline-inspection",
+  "source_hash": "source-demo-v1",
+  "title": "Offline inspection, revision 2",
+  "version": "2"
+}

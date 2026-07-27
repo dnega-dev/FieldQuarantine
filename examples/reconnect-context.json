@@ -1,0 +1,9 @@
+{
+  "actor": "sync-worker",
+  "now": "2025-01-03T12:00:00Z",
+  "received_delivery_ids": [],
+  "remote_applied_fields": {},
+  "uploaded_attachment_ids": [
+    "att-001"
+  ]
+}
