@@ -1,0 +1,63 @@
+{
+  "fields": [
+    {
+      "aliases": [],
+      "constraints": {
+        "enum": [
+          "good",
+          "repair"
+        ]
+      },
+      "evidence": {
+        "media_types": [
+          "image/jpeg"
+        ],
+        "min_count": 1,
+        "required": true
+      },
+      "field_id": "condition",
+      "label": "Condition",
+      "required": true,
+      "type": "enum"
+    },
+    {
+      "aliases": [],
+      "constraints": {
+        "maximum": 80,
+        "minimum": -20
+      },
+      "evidence": {
+        "media_types": [],
+        "min_count": 0,
+        "required": false
+      },
+      "field_id": "temperature",
+      "label": "Temperature",
+      "required": true,
+      "type": "integer"
+    },
+    {
+      "aliases": [],
+      "constraints": {
+        "max_length": 500
+      },
+      "evidence": {
+        "media_types": [],
+        "min_count": 0,
+        "required": false
+      },
+      "field_id": "notes",
+      "label": "Notes",
+      "required": false,
+      "type": "string"
+    }
+  ],
+  "metadata": {
+    "example": true
+  },
+  "obligation_hash": "obligation-demo-v1",
+  "schema_id": "offline-inspection",
+  "source_hash": "source-demo-v1",
+  "title": "Offline inspection",
+  "version": "1"
+}
