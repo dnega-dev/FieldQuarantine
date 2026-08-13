@@ -1,5 +1,9 @@
 # Field Quarantine
 
+[![CI](https://github.com/dnega-dev/FieldQuarantine/actions/workflows/ci.yml/badge.svg)](https://github.com/dnega-dev/FieldQuarantine/actions/workflows/ci.yml)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776AB)](https://www.python.org/)
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+
 Field Quarantine is a zero-runtime-dependency Python 3.9+ library and CLI for
 classifying and safely migrating form or inspection submissions captured while a
 client is offline. It is designed for the awkward reconnect window in which the
