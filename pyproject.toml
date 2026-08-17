@@ -23,6 +23,12 @@ classifiers = [
 ]
 dependencies = []
 
+[project.urls]
+Homepage = "https://github.com/dnega-dev/FieldQuarantine"
+Repository = "https://github.com/dnega-dev/FieldQuarantine"
+Issues = "https://github.com/dnega-dev/FieldQuarantine/issues"
+Changelog = "https://github.com/dnega-dev/FieldQuarantine/blob/main/CHANGELOG.md"
+
 [project.scripts]
 field-quarantine = "field_quarantine.cli:main"
 
